@@ -55,7 +55,7 @@ null 값을 가질 수 없는 non-nullable 변수로 생성됩니다.
 
 메시지를 보시면 '수신자가 null 일 수 있으므로 length 프로퍼티를 무조건적으로 액세스 할 수 없다.' 라고 뜹니다. <br>
 저희가 name 변수를 nullable변수로 선언했기 때문에 name의 값이 null일 경우에 프린트 문장에서<br>
-nullpointerexception이 발생할 수 있으므로 컴파일러가 미리 에러 메시지를 보내주는 것입니다. <br>
+nullpointerexception이 발생할 수 있으므로 컴파일러가 미리 에러 메시지를 보내주는 것입니다. <br><br>
 <strong>이런식으로 잘못된 null값 참조를 프로그램이 실행되기 전에 컴파일러가 체크해주는것이 <br>null safety의 목적이자 존재 이유입니다.</strong> <br>해결 방법을 보시면 엑세스방법을 조건부로 만들어라 라고 말해줍니다.
 
 <img width="528" alt="image" src="https://user-images.githubusercontent.com/114234223/229766870-d910af8a-1ebc-4a00-a014-3c7c724a05c3.png">
